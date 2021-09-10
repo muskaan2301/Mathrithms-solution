@@ -36,7 +36,7 @@ void printArray(int arr[], int size)
 
 int main()
 {
-    int arr[] = {64, 25, 12, 22, 11};
+    int arr[] = {83,1,45,95,45,52,11,47,0,45,67,82};
     int n = sizeof(arr)/sizeof(arr[0]);
     selectionSort(arr, n);
     printf("Sorted array: \n");
